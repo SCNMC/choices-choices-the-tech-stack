@@ -1,35 +1,29 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# vue-project
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+This template should help get you started developing with Vue 3 in Vite.
 
-## Inhoudsopgave
+## Recommended IDE Setup
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+## Customize configuration
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Installatie
+## Project Setup
 
-## Gebruik
+```sh
+npm install
+```
 
-## Bronnen
+### Compile and Hot-Reload for Development
 
-## Licentie
+```sh
+npm run dev
+```
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+### Compile and Minify for Production
 
-This work is licensed under [GNU GPLv3](./LICENSE).
+```sh
+npm run build
+```
