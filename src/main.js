@@ -1,11 +1,17 @@
 import { createApp } from 'vue'
+import {createPrismic} from "@prismicio/vue";
 import App from './App.vue'
 import router from './router'
-
 import './assets/main.css'
 
-const app = createApp(App)
 
-app.use(router)
+const prismic = createPrismic({
+    endpoint: "cmda-mid-term",
+  });
 
-app.mount('#app')
+  
+createApp(App).use(router).use(prismic).mount("#app");
+
+
+
+

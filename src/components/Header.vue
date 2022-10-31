@@ -5,8 +5,16 @@ import Animatedhamburger from "./Animatedhamburger.vue";
 
 <template>
 <header>
+	<router-link to="/">
 	<h1>CMD Mid-term </h1>
-    <Animatedhamburger/>
+    </router-link>
+	<nav>
+		<a href="./beoogde-leerresultaten">Beoogde leerresultaten</a>
+		<a href="./onderwijsleeromgeving">Onderwijsleeromgeving</a>
+		<a href="./toetsing">Toetsing</a>
+		<a href="./gerealiseerde-leerresultaten">Gerealiseerde Leerresultaten</a>
+	</nav>
+    <!-- <Animatedhamburger/> -->
 		<!-- <nav>
 			<a href="./beoogde-leerresultaten">Beoogde leerresultaten</a>
 			<a href="./onderwijsleeromgeving">Onderwijsleeromgeving</a>
@@ -31,7 +39,13 @@ h1 {
 		transition: linear 0.4s;
 	}
 
-	nav {
+	nav{
+		display: flex;
+		gap: .5em;
+		padding: 1em .5em;
+	}
+
+	/* nav {
 		position: fixed;
 		display: flex;
 		gap: 2em;
@@ -43,13 +57,13 @@ h1 {
 		height: 100%;
 		top: 0;
 		left: 0;
-	}
+	} */
 
-	nav > a {
+	/* nav > a {
 		font-size: 2em;
 		text-decoration: none;
 		color: white;
-	}
+	} */
 
 	nav :hover {
 		transition: linear 0.2s;
@@ -59,9 +73,9 @@ h1 {
 	@media (min-width: 60em) {
 		header {
 			transition: linear 0.4s;
-			margin: 0.4em 4em;
+			margin: 0.4em 5em;
 		}
-		nav {
+		/* nav {
 			position: fixed;
 			display: flex;
 			align-items: center;
@@ -72,13 +86,13 @@ h1 {
 			height: 100%;
 			top: 0;
 			left: 0;
-		}
-
+		} */
+/* 
 		nav > a {
 			font-size: 3em;
 			text-decoration: none;
 			color: white;
-		}
+		} */
 
 		nav :hover {
 			transition: linear 0.2s;

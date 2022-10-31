@@ -1,27 +1,18 @@
+<script>
+  export default {
+        props: {
+            introduction: Object,
+            introTitle: String,
+        }
+    }
+
+</script>
+
 <template>
     <section class="intro">
 	<div class="intro-info">
-		<h3>Midterm</h3>
-		<p
-			>De midterm review 2022 willen we graag inzetten om feedback te krijgen op
-			ons onderwijs<br /> en met het panel te kijken naar de toekomst van het vakgebied
-			en ontwerp-onderwijs. Deze website beschrijft het onderwijs bij CMD Amsterdam,
-			onze kritische reflectie hierop en ambities voor de toekomst.</p
-		>
-		<p
-			>CMD Amsterdam is een leergemeenschap waarbij studenten, docenten en
-			medewerkers met en van elkaar leren. Deze site is daar ook een voorbeeld
-			van: de inhoud is verzorgd door docenten en medewerkers (Diantha
-			Kinkhouwers, Laura van der Vlies, David de Vries, Jos Kok, Arif Khan,
-			Michel Alders, Tatjana Finke en Zuzana van Polen) en het ontwerp is
-			gemaakt door studenten van CMD Agency (Alana Eastman, Ryan Zoeters, Nina
-			Rijntjes en Pip Harsveld), de minor Web development (Fabienne van den
-			Steen, Kai van Wezel en Nathan Bommezijn) van CMD Amsterdam en Justin Lung
-			(AD Frontend Design en Development, HvA) onder begeleiding van Joost Faber
-			(docent), alles overzien door onze hoofddocent Irene Kamp.</p
-		>
-		<p>We kijken uit naar de gesprekken op 4 oktober,</p>
-		<p>Andre Neumann - opleidingsmanager</p>
+		<h3>{{introTitle}}</h3>
+		<prismic-rich-text :field="introduction" />
 	</div>
 	<img src="../assets/cmd-laptop.png" alt="laptop" />
 </section>

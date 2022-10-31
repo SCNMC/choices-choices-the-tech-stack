@@ -1,10 +1,10 @@
-<script setup>
+<script>
 
 </script>
 
 
 <template>
-    <button >
+    <button>
 	<svg
     class:open
 		viewBox="0 0 100 100"
