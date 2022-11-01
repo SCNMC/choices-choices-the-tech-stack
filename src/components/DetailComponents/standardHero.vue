@@ -1,7 +1,7 @@
 <template>
 
 <section class="detail">
-    <img class="detail-hero-img" src="../assets/hero-image.jpeg" alt="woman with laptop" />
+    <!-- <img class="detail-hero-img" src="src/assets/hero-image.jpeg" alt="woman with laptop" /> -->
        <section class="detail-hero-heading">
            <h2>1.0</h2>
            <h3>Beoogde leerresultaten</h3>
