@@ -5,10 +5,11 @@ import router from './router'
 import './assets/main.css'
 
 
+
 const prismic = createPrismic({
     endpoint: "cmda-mid-term",
   });
-
+  
   
 createApp(App).use(router).use(prismic).mount("#app");
 
